@@ -3,14 +3,13 @@ from transformers import pipeline
 import pickle
 
 '''
+This script extracts named entities from Turkish parliament texts to a single pickle file.
 Requirements:
 Put the TPT dataset in the same directory as the script.
 '''
 
 def load_texts(directory):
     texts = []
-    # delete count
-    count = 0
     for root, dirs, files in os.walk(directory):
         for filename in files:
             if filename.endswith('.txt'):
