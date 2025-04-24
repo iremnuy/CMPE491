@@ -1,3 +1,5 @@
 TPT
 .DS_Store
 myenv
+logs
+alias_map.pkl
