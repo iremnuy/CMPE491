@@ -1,0 +1,388 @@
+@prefix ex: <http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Abdullah_Gül a ex:Person ;
+    ex:birthDate "1950-10-29"^^xsd:date ;
+    ex:label "Abdullah Gül" ;
+    ex:memberOf ex:Adalet_ve_Kalkınma_Partisi ;
+    ex:represents ex:Kayseri ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q42852> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q42852" .
+
+ex:Abdülkadir_Aksu a ex:Person ;
+    ex:birthDate "1944-10-12"^^xsd:date ;
+    ex:label "Abdülkadir Aksu" ;
+    ex:memberOf ex:Anavatan_Partisi ;
+    ex:represents ex:Diyarbakır ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q318055> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q318055" .
+
+ex:Ahmet_Aydın a ex:Person ;
+    ex:birthDate "1955-01-01"^^xsd:date ;
+    ex:label "Ahmet Aydın" ;
+    ex:memberOf ex:Milliyetçi_Hareket_Partisi ;
+    ex:represents ex:Samsun ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6021605> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6021605" .
+
+ex:Ahmet_Ersin a ex:Person ;
+    ex:birthDate "1950-01-01"^^xsd:date ;
+    ex:label "Ahmet Ersin" ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q19610414> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q19610414" .
+
+ex:Ali a ex:Person ;
+    ex:birthDate "0599-03-19"^^xsd:date ;
+    ex:label "Ali" ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q39619> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q39619" .
+
+ex:Ali_Cumhur_Taşkın a ex:Person ;
+    ex:birthDate "1967-01-01"^^xsd:date ;
+    ex:label "Ali Cumhur Taşkın" ;
+    ex:represents ex:Mersin ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q106166222> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q106166222" .
+
+ex:Atatürk a ex:Person ;
+    ex:label "Atatürk" ;
+    ex:represents ex:Ardahan .
+
+ex:Binali_Yıldırım a ex:Person ;
+    ex:birthDate "1955-12-20"^^xsd:date ;
+    ex:label "Binali Yıldırım" ;
+    ex:memberOf ex:Adalet_ve_Kalkınma_Partisi ;
+    ex:represents ex:İstanbul ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q863496> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q863496" .
+
+ex:Bülent_Akarcalı a ex:Person ;
+    ex:birthDate "1943-11-17"^^xsd:date ;
+    ex:label "Bülent Akarcalı" ;
+    ex:memberOf ex:Anavatan_Partisi ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6069509> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6069509" .
+
+ex:Bülent_Ecevit a ex:Person ;
+    ex:birthDate "1925-05-28"^^xsd:date ;
+    ex:label "Bülent Ecevit" ;
+    ex:memberOf ex:Cumhuriyet_Halk_Partisi ;
+    ex:represents ex:Ankara ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q192634> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q192634" .
+
+ex:Cemil a ex:Person ;
+    ex:label "Cemil" .
+
+ex:Cemil_Çiçek a ex:Person ;
+    ex:birthDate "1946-11-04"^^xsd:date ;
+    ex:label "Cemil Çiçek" ;
+    ex:memberOf ex:Adalet_ve_Kalkınma_Partisi ;
+    ex:represents ex:Yozgat ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q202971> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q202971" .
+
+ex:Cüneyt_Canver a ex:Person ;
+    ex:label "Cüneyt Canver" ;
+    ex:represents ex:Adana .
+
+ex:Durmuş_Fikri_Sağlar a ex:Person ;
+    ex:label "Durmuş Fikri Sağlar" ;
+    ex:represents ex:Mersin .
+
+ex:Erkan_Aydın a ex:Person ;
+    ex:birthDate "1974-01-01"^^xsd:date ;
+    ex:label "Erkan Aydın" ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q106306273> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q106306273" .
+
+ex:Hasan a ex:Person ;
+    ex:birthDate "1423-01-01"^^xsd:date ;
+    ex:label "Hasan" ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q374468> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q374468" .
+
+ex:Hasan_Fehmi a ex:Person ;
+    ex:label "Hasan Fehmi" .
+
+ex:Hasan_Gemici a ex:Person ;
+    ex:birthDate "1927-06-15"^^xsd:date ;
+    ex:label "Hasan Gemici" ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q1372203> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q1372203" .
+
+ex:Hikmet_Çetin a ex:Person ;
+    ex:birthDate "1937-08-10"^^xsd:date ;
+    ex:label "Hikmet Çetin" ;
+    ex:memberOf ex:Cumhuriyet_Halk_Partisi ;
+    ex:represents ex:İstanbul ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q351674> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q351674" .
+
+ex:Işılay_Saygın a ex:Person ;
+    ex:birthDate "1947-04-04"^^xsd:date ;
+    ex:label "Işılay Saygın" ;
+    ex:memberOf ex:Adalet_Partisi ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6067762> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6067762" .
+
+ex:Kamer_Genc a ex:Person ;
+    ex:label "Kamer Genc" .
+
+ex:Kemal_Anadol a ex:Person ;
+    ex:label " Kemal Anadol" .
+
+ex:Kâzım a ex:Person ;
+    ex:label "Kâzım" .
+
+ex:Levent_Gök a ex:Person ;
+    ex:birthDate "1959-10-24"^^xsd:date ;
+    ex:label "Levent Gök" ;
+    ex:memberOf ex:Cumhuriyet_Halk_Partisi ;
+    ex:represents ex:Ankara ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6027977> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6027977" .
+
+ex:M_M a ex:Person ;
+    ex:label "M M" .
+
+ex:Mahmut_Tanal a ex:Person ;
+    ex:birthDate "1961-01-01"^^xsd:date ;
+    ex:label "Mahmut Tanal" ;
+    ex:memberOf ex:Cumhuriyet_Halk_Partisi ;
+    ex:represents ex:İstanbul ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q15833364> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q15833364" .
+
+ex:Mehmet_Akif_Hamzaçebi a ex:Person ;
+    ex:label "Mehmet Akif Hamzaçebi" ;
+    ex:represents ex:Trabzon .
+
+ex:Mehmet_Ali_Şahin a ex:Person ;
+    ex:birthDate "1950-09-16"^^xsd:date ;
+    ex:label "Mehmet Ali Şahin" ;
+    ex:memberOf ex:Adalet_ve_Kalkınma_Partisi ;
+    ex:represents ex:İstanbul ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q1396517> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q1396517" .
+
+ex:Mehmet_Daniş a ex:Person ;
+    ex:birthDate "1971-01-01"^^xsd:date ;
+    ex:label "Mehmet Daniş" ;
+    ex:memberOf ex:Adalet_ve_Kalkınma_Partisi ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q17045969> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q17045969" .
+
+ex:Mehmet_Mehdi_Eker a ex:Person ;
+    ex:label "Mehmet Mehdi Eker" .
+
+ex:Mehmet_Şandır a ex:Person ;
+    ex:birthDate "1947-01-01"^^xsd:date ;
+    ex:label "Mehmet Şandır" ;
+    ex:memberOf ex:Milliyetçi_Hareket_Partisi ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6042625> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6042625" .
+
+ex:Mesut_Yılmaz a ex:Person ;
+    ex:label " Mesut Yılmaz" ;
+    ex:represents ex:Rize .
+
+ex:Mustafa a ex:Person ;
+    ex:label "Mustafa" .
+
+ex:Necmettin_Cevheri a ex:Person ;
+    ex:birthDate "1930-01-01"^^xsd:date ;
+    ex:label "Necmettin Cevheri" ;
+    ex:memberOf ex:Adalet_Partisi ;
+    ex:represents ex:Urfa ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6075790> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6075790" .
+
+ex:Oktay_Vural a ex:Person ;
+    ex:birthDate "1956-02-09"^^xsd:date ;
+    ex:label "Oktay Vural" ;
+    ex:memberOf ex:Milliyetçi_Hareket_Partisi ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6582991> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6582991" .
+
+ex:REİS a ex:Person ;
+    ex:label "REİS" .
+
+ex:Recep_Tayyip_Erdoğan a ex:Person ;
+    ex:birthDate "1954-02-26"^^xsd:date ;
+    ex:label "Recep Tayyip Erdoğan" ;
+    ex:memberOf ex:Adalet_ve_Kalkınma_Partisi ;
+    ex:represents ex:Siirt ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q39259> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q39259" .
+
+ex:Refet a ex:Person ;
+    ex:label "Refet" .
+
+ex:Reşat_Doğru a ex:Person ;
+    ex:birthDate "1955-07-20"^^xsd:date ;
+    ex:label "Reşat Doğru" ;
+    ex:memberOf ex:Milliyetçi_Hareket_Partisi ;
+    ex:represents ex:Tokat ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6087140> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6087140" .
+
+ex:Rifat_Serdaroğlu a ex:Person ;
+    ex:birthDate "1948-10-30"^^xsd:date ;
+    ex:label "Rifat Serdaroğlu" ;
+    ex:memberOf ex:Anavatan_Partisi ;
+    ex:represents ex:İzmir ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6058670> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6058670" .
+
+ex:Sinan_Tekelioğlu a ex:Person ;
+    ex:birthDate "1889-01-01"^^xsd:date ;
+    ex:label "Sinan Tekelioğlu" ;
+    ex:represents ex:Seyhan ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6044098> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q6044098" .
+
+ex:Süleyman_Demirel a ex:Person ;
+    ex:birthDate "1924-11-01"^^xsd:date ;
+    ex:label "Süleyman Demirel" ;
+    ex:memberOf ex:Adalet_Partisi ;
+    ex:represents ex:Isparta ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q151729> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q151729" .
+
+ex:TU a ex:Person ;
+    ex:label "TU" .
+
+ex:Tansu_Çiller a ex:Person ;
+    ex:birthDate "1946-05-24"^^xsd:date ;
+    ex:label "Tansu Çiller" ;
+    ex:memberOf ex:Doğru_Yol_Partisi ;
+    ex:represents ex:İstanbul ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q208377> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q208377" .
+
+ex:Turgut_özal a ex:Person ;
+    ex:label "Turgut özal" .
+
+ex:Veysel_Eroğlu a ex:Person ;
+    ex:birthDate "1948-08-18"^^xsd:date ;
+    ex:label "Veysel Eroğlu" ;
+    ex:memberOf ex:Adalet_ve_Kalkınma_Partisi ;
+    ex:represents ex:Afyonkarahisar ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q1465755> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q1465755" .
+
+ex:Yıldırım_Akbulut a ex:Person ;
+    ex:birthDate "1935-09-02"^^xsd:date ;
+    ex:label "Yıldırım Akbulut" ;
+    ex:memberOf ex:Anavatan_Partisi ;
+    ex:represents ex:Erzincan ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q558287> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q558287" .
+
+ex:Ömer_Fethi_Gürer a ex:Person ;
+    ex:birthDate "1957-01-01"^^xsd:date ;
+    ex:label "Ömer Fethi Gürer" ;
+    ex:memberOf ex:Cumhuriyet_Halk_Partisi ;
+    ex:represents ex:Niğde ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q31188503> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q31188503" .
+
+ex:Özgür_Özel a ex:Person ;
+    ex:birthDate "1974-09-21"^^xsd:date ;
+    ex:label "Özgür Özel" ;
+    ex:memberOf ex:Cumhuriyet_Halk_Partisi ;
+    ex:represents ex:Manisa ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q17046812> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q17046812" .
+
+ex:İbrahim_Köşdere a ex:Person ;
+    ex:label "İbrahim Köşdere" ;
+    ex:represents ex:Çanakkale ;
+    ex:sameAs <https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q116587630> ;
+    ex:wikidataID "http://www.wikidata.org/entity/Q116587630" .
+
+ex:Adana a ex:Location ;
+    ex:label "Adana" .
+
+ex:Afyonkarahisar a ex:Location ;
+    ex:label "Afyonkarahisar" .
+
+ex:Ardahan a ex:Location ;
+    ex:label "Ardahan" .
+
+ex:Diyarbakır a ex:Location ;
+    ex:label "Diyarbakır" .
+
+ex:Doğru_Yol_Partisi a ex:Organization ;
+    ex:label "Doğru Yol Partisi" .
+
+ex:Erzincan a ex:Location ;
+    ex:label "Erzincan" .
+
+ex:Isparta a ex:Location ;
+    ex:label "Isparta" .
+
+ex:Kayseri a ex:Location ;
+    ex:label "Kayseri" .
+
+ex:Manisa a ex:Location ;
+    ex:label "Manisa" .
+
+ex:Niğde a ex:Location ;
+    ex:label "Niğde" .
+
+ex:Rize a ex:Location ;
+    ex:label "Rize" .
+
+ex:Samsun a ex:Location ;
+    ex:label "Samsun" .
+
+ex:Seyhan a ex:Location ;
+    ex:label "Seyhan" .
+
+ex:Siirt a ex:Location ;
+    ex:label "Siirt" .
+
+ex:Tokat a ex:Location ;
+    ex:label "Tokat" .
+
+ex:Trabzon a ex:Location ;
+    ex:label "Trabzon" .
+
+ex:Urfa a ex:Location ;
+    ex:label "Urfa" .
+
+ex:Yozgat a ex:Location ;
+    ex:label "Yozgat" .
+
+ex:Çanakkale a ex:Location ;
+    ex:label "Çanakkale" .
+
+ex:İzmir a ex:Location ;
+    ex:label "İzmir" .
+
+ex:Ankara a ex:Location ;
+    ex:label "Ankara" .
+
+ex:Mersin a ex:Location ;
+    ex:label "Mersin" .
+
+ex:Adalet_Partisi a ex:Organization ;
+    ex:label "Adalet Partisi" .
+
+ex:Anavatan_Partisi a ex:Organization ;
+    ex:label "Anavatan Partisi" .
+
+ex:Milliyetçi_Hareket_Partisi a ex:Organization ;
+    ex:label "Milliyetçi Hareket Partisi" .
+
+ex:İstanbul a ex:Location ;
+    ex:label "İstanbul" .
+
+ex:Cumhuriyet_Halk_Partisi a ex:Organization ;
+    ex:label "Cumhuriyet Halk Partisi" .
+
+ex:Adalet_ve_Kalkınma_Partisi a ex:Organization ;
+    ex:label "Adalet ve Kalkınma Partisi" .
+
