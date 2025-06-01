@@ -1,0 +1,1001 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:RT6rB6apdomRGTqlYC3zoM="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#sameAs -->
+
+    <AnnotationProperty rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#memberOfParty -->
+
+    <ObjectProperty rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#memberOfParty">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#representativeOf -->
+
+    <ObjectProperty rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#representativeOf">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#birthDate -->
+
+    <DatatypeProperty rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#birthDate">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#wikidataID -->
+
+    <DatatypeProperty rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#wikidataID">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location -->
+
+    <Class rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person -->
+
+    <Class rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty -->
+
+    <Class rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Abdullah_Gül -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Abdullah_Gül">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kayseri"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-10-29</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q42852</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q42852"/>
+        <rdfs:label>Abdullah Gül</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Abdülkadir_Aksu -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Abdülkadir_Aksu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Anavatan_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Diyarbakır"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1944-10-12</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q318055</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q318055"/>
+        <rdfs:label>Abdülkadir Aksu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_Partisi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_Partisi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+        <rdfs:label>Adalet Partisi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+        <rdfs:label>Adalet ve Kalkınma Partisi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adana -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adana">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Adana</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Afyonkarahisar -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Afyonkarahisar">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Afyonkarahisar</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ahmet_Aydın -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ahmet_Aydın">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Milliyetçi_Hareket_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Samsun"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6021605</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6021605"/>
+        <rdfs:label>Ahmet Aydın</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ahmet_Ersin -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ahmet_Ersin">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q19610414</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q19610414"/>
+        <rdfs:label>Ahmet Ersin</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ali -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ali">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0599-03-19</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q39619</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q39619"/>
+        <rdfs:label>Ali</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ali_Cumhur_Taşkın -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ali_Cumhur_Taşkın">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mersin"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q106166222</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q106166222"/>
+        <rdfs:label>Ali Cumhur Taşkın</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Anavatan_Partisi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Anavatan_Partisi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+        <rdfs:label>Anavatan Partisi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ankara -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ankara">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Ankara</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ardahan -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ardahan">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Ardahan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Atatürk -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Atatürk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ardahan"/>
+        <rdfs:label>Atatürk</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Binali_Yıldırım -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Binali_Yıldırım">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İstanbul"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-12-20</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q863496</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q863496"/>
+        <rdfs:label>Binali Yıldırım</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Bülent_Akarcalı -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Bülent_Akarcalı">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Anavatan_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-11-17</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6069509</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6069509"/>
+        <rdfs:label>Bülent Akarcalı</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Bülent_Ecevit -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Bülent_Ecevit">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ankara"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-05-28</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q192634</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q192634"/>
+        <rdfs:label>Bülent Ecevit</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cemil -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cemil">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Cemil</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cemil_Çiçek -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cemil_Çiçek">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Yozgat"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1946-11-04</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q202971</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q202971"/>
+        <rdfs:label>Cemil Çiçek</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+        <rdfs:label>Cumhuriyet Halk Partisi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cüneyt_Canver -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cüneyt_Canver">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adana"/>
+        <rdfs:label>Cüneyt Canver</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Diyarbakır -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Diyarbakır">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Diyarbakır</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Doğru_Yol_Partisi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Doğru_Yol_Partisi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+        <rdfs:label>Doğru Yol Partisi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Durmuş_Fikri_Sağlar -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Durmuş_Fikri_Sağlar">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mersin"/>
+        <rdfs:label>Durmuş Fikri Sağlar</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Erkan_Aydın -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Erkan_Aydın">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q106306273</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q106306273"/>
+        <rdfs:label>Erkan Aydın</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Erzincan -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Erzincan">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Erzincan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hasan -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hasan">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1423-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q374468</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q374468"/>
+        <rdfs:label>Hasan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hasan_Fehmi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hasan_Fehmi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Hasan Fehmi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hasan_Gemici -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hasan_Gemici">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1927-06-15</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q1372203</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q1372203"/>
+        <rdfs:label>Hasan Gemici</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hikmet_Çetin -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Hikmet_Çetin">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İstanbul"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1937-08-10</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q351674</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q351674"/>
+        <rdfs:label>Hikmet Çetin</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Isparta -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Isparta">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Isparta</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Işılay_Saygın -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Işılay_Saygın">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1947-04-04</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6067762</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6067762"/>
+        <rdfs:label>Işılay Saygın</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kamer_Genc -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kamer_Genc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Kamer Genc</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kayseri -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kayseri">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Kayseri</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kemal_Anadol -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kemal_Anadol">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label> Kemal Anadol</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kâzım -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Kâzım">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Kâzım</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Levent_Gök -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Levent_Gök">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ankara"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-10-24</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6027977</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6027977"/>
+        <rdfs:label>Levent Gök</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#M_M -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#M_M">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>M M</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mahmut_Tanal -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mahmut_Tanal">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İstanbul"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1961-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q15833364</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q15833364"/>
+        <rdfs:label>Mahmut Tanal</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Manisa -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Manisa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Manisa</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Akif_Hamzaçebi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Akif_Hamzaçebi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Trabzon"/>
+        <rdfs:label>Mehmet Akif Hamzaçebi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Ali_Şahin -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Ali_Şahin">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İstanbul"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-09-16</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q1396517</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q1396517"/>
+        <rdfs:label>Mehmet Ali Şahin</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Daniş -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Daniş">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1971-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q17045969</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q17045969"/>
+        <rdfs:label>Mehmet Daniş</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Mehdi_Eker -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Mehdi_Eker">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Mehmet Mehdi Eker</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Şandır -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mehmet_Şandır">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Milliyetçi_Hareket_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1947-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6042625</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6042625"/>
+        <rdfs:label>Mehmet Şandır</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mersin -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mersin">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Mersin</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mesut_Yılmaz -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mesut_Yılmaz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Rize"/>
+        <rdfs:label> Mesut Yılmaz</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Milliyetçi_Hareket_Partisi -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Milliyetçi_Hareket_Partisi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#PoliticalParty"/>
+        <rdfs:label>Milliyetçi Hareket Partisi</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mustafa -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Mustafa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Mustafa</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Necmettin_Cevheri -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Necmettin_Cevheri">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Urfa"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1930-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6075790</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6075790"/>
+        <rdfs:label>Necmettin Cevheri</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Niğde -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Niğde">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Niğde</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Oktay_Vural -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Oktay_Vural">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Milliyetçi_Hareket_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1956-02-09</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6582991</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6582991"/>
+        <rdfs:label>Oktay Vural</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#REİS -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#REİS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>REİS</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Recep_Tayyip_Erdoğan -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Recep_Tayyip_Erdoğan">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Siirt"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1954-02-26</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q39259</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q39259"/>
+        <rdfs:label>Recep Tayyip Erdoğan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Refet -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Refet">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Refet</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Reşat_Doğru -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Reşat_Doğru">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Milliyetçi_Hareket_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Tokat"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-07-20</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6087140</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6087140"/>
+        <rdfs:label>Reşat Doğru</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Rifat_Serdaroğlu -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Rifat_Serdaroğlu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Anavatan_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İzmir"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1948-10-30</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6058670</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6058670"/>
+        <rdfs:label>Rifat Serdaroğlu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Rize -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Rize">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Rize</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Samsun -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Samsun">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Samsun</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Seyhan -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Seyhan">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Seyhan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Siirt -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Siirt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Siirt</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Sinan_Tekelioğlu -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Sinan_Tekelioğlu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Seyhan"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q6044098</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q6044098"/>
+        <rdfs:label>Sinan Tekelioğlu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Süleyman_Demirel -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Süleyman_Demirel">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Isparta"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-11-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q151729</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q151729"/>
+        <rdfs:label>Süleyman Demirel</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#TU -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#TU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>TU</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Tansu_Çiller -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Tansu_Çiller">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Doğru_Yol_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İstanbul"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1946-05-24</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q208377</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q208377"/>
+        <rdfs:label>Tansu Çiller</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Tokat -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Tokat">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Tokat</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Trabzon -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Trabzon">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Trabzon</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Turgut_özal -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Turgut_özal">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <rdfs:label>Turgut özal</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Urfa -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Urfa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Urfa</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Veysel_Eroğlu -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Veysel_Eroğlu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Adalet_ve_Kalkınma_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Afyonkarahisar"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1948-08-18</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q1465755</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q1465755"/>
+        <rdfs:label>Veysel Eroğlu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Yozgat -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Yozgat">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Yozgat</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Yıldırım_Akbulut -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Yıldırım_Akbulut">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Anavatan_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Erzincan"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1935-09-02</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q558287</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q558287"/>
+        <rdfs:label>Yıldırım Akbulut</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Çanakkale -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Çanakkale">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>Çanakkale</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ömer_Fethi_Gürer -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Ömer_Fethi_Gürer">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Niğde"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1957-01-01</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q31188503</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q31188503"/>
+        <rdfs:label>Ömer Fethi Gürer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Özgür_Özel -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Özgür_Özel">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:memberOfParty rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Cumhuriyet_Halk_Partisi"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Manisa"/>
+        <RT6rB6apdomRGTqlYC3zoM:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-09-21</RT6rB6apdomRGTqlYC3zoM:birthDate>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q17046812</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q17046812"/>
+        <rdfs:label>Özgür Özel</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İbrahim_Köşdere -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İbrahim_Köşdere">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Person"/>
+        <RT6rB6apdomRGTqlYC3zoM:representativeOf rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Çanakkale"/>
+        <RT6rB6apdomRGTqlYC3zoM:wikidataID>http://www.wikidata.org/entity/Q116587630</RT6rB6apdomRGTqlYC3zoM:wikidataID>
+        <RT6rB6apdomRGTqlYC3zoM:sameAs rdf:resource="https://www.wikidata.org/entity/http://www.wikidata.org/entity/Q116587630"/>
+        <rdfs:label>İbrahim Köşdere</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İstanbul -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İstanbul">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>İstanbul</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İzmir -->
+
+    <NamedIndividual rdf:about="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#İzmir">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RT6rB6apdomRGTqlYC3zoM#Location"/>
+        <rdfs:label>İzmir</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
