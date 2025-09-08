@@ -1,4 +1,6 @@
 import re
+from elasticsearch import Elasticsearch
+from elasticsearch import helpers
 
 def extract_aciklamalar(text):
     """
@@ -61,6 +63,11 @@ def extract_full_speech(text, speech_no, province, speaker):
 if __name__ == "__main__":
     with open("TPT/TXTs/d28-y1_txts/tbmm28002014.txt", "r", encoding="utf-8") as f:
         raw_text = f.read()
+        
+    es = Elasticsearch(hosts=["http://localhost:9200"])
+    index_name = "parliament_speeches"
+    session_id = "d28-y1" #to be automated 
+    actions = [] #for bulk insert
 
     # Step 1: extract summaries
     aciklamalar = extract_aciklamalar(raw_text)
@@ -84,3 +91,24 @@ if __name__ == "__main__":
         print(f"Chars : {s['content_length']}")
         print("--- Content Preview ---")
         print(s['content_preview'])
+        doc = {
+        "_index": index_name,
+        "_id": f"{session_id}-{s['speech_no']}",  # deterministic unique ID
+        "_source": {
+            "session_id": session_id,
+            "speech_no": int(s["speech_no"]),
+            "province": s["province"],
+            "speech_giver": s["speech_giver"],
+            "speech_title": s["speech_title"],
+            "page_ref": s["page_ref"],
+            "content": speech_text if speech_text else ""
+        }
+    }
+        actions.append(doc)
+
+    # Bulk insert
+    if actions:
+        success, failed = helpers.bulk(es, actions, stats_only=True)
+        print(f"✅ Indexed {success} documents, ❌ failed {failed}")
+    else:
+        print("⚠️ No documents to index")
